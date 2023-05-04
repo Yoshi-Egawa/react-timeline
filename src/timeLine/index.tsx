@@ -22,7 +22,7 @@ const initialDataGroup: DataGroup[] = [
 
 export type TimeLineProps = {
   withHeader?: boolean;
-  dataGroup: DataGroup[];
+  dataGroup?: DataGroup[];
 };
 
 export default function TimeLine(props: TimeLineProps) {
